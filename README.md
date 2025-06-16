@@ -6,9 +6,6 @@
 - Ronald Luigi Galvão
 - Maike da Silva Castilho
 
-## Descrição
-Este projeto apresenta um exemplo didático e bem documentado de treinamento de uma rede neural convolucional (CNN) utilizando o dataset MNIST de dígitos manuscritos. O código foi desenvolvido em Python com PyTorch e inclui funções para carregamento dos dados, definição do modelo, treinamento, avaliação, early stopping, visualização dos resultados e exemplos de uso.
-
 ## Modificações Realizadas
 - **Batch size:** Alterado para 128
 - **Learning rate:** Alterado para 0.0005
@@ -23,10 +20,6 @@ Essas modificações foram feitas para buscar o melhor desempenho do modelo, con
    ```
 2. Execute o notebook `2025_1_Treinamento_de_modelo_CNN_para_MNIST.ipynb` em um ambiente Jupyter Notebook ou Google Colab.
 3. O notebook irá baixar automaticamente o dataset MNIST, treinar o modelo, aplicar early stopping e exibir gráficos de loss e acurácia, além de exemplos de classificação.
-
-## Observações
-- O código está extensamente comentado para facilitar o entendimento.
-- Para testar outros valores de batch size, learning rate ou paciência, basta alterar os parâmetros correspondentes no notebook.
 
 ---
 
@@ -48,7 +41,3 @@ Após as camadas convolucionais e de pooling, os dados ainda estão em formato d
 
 ### 5. Qual a finalidade das camadas de Dropout?
 As camadas de **Dropout** servem para evitar overfitting durante o treinamento. Elas "desligam" aleatoriamente uma fração dos neurônios em cada iteração, forçando o modelo a não depender de caminhos específicos e tornando o aprendizado mais robusto.
-
----
-
-Qualquer dúvida, entre em contato com um dos integrantes do grupo! 

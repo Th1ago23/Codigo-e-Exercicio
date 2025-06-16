@@ -1,10 +1,10 @@
 # Treinamento de Modelo CNN para MNIST
 
 ## Alunos
-- Thiago Peixoto dos Santos
-- Pablo Candido Pereira de Lana
-- Ronald Luigi Galvão
-- Maike da Silva Castilho
+- Thiago Peixoto dos Santos - 202210492
+- Pablo Candido Pereira de Lana - 202210393
+- Ronald Luigi Galvão - 202210394
+- Maike da Silva Castilho - 202210487
 
 ## Modificações Realizadas
 - **Batch size:** Alterado para 128
